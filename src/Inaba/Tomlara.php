@@ -21,7 +21,7 @@ class Tomlara extends LoadConfiguration
     protected function loadConfigurationFiles(Application $app, RepositoryContract $repository)
     {
         foreach ($this->getConfigurationFiles($app) as $key => $path) {
-            $config->set($key, $this->parseToml($path));
+            $repository->set($key, $this->parseToml($path));
         }
     }
 
