@@ -6,6 +6,7 @@ use Yosymfony\Toml\Toml;
 use Illuminate\Config\Repository;
 use Symfony\Component\Finder\Finder;
 use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Foundation\Bootstrap\LoadConfiguration;
 use Illuminate\Contracts\Config\Repository as RepositoryContract;
 
 class Tomlara extends LoadConfiguration
