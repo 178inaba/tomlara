@@ -59,7 +59,7 @@ class Tomlara extends LoadConfiguration
 
         if (@filemtime($cacheFile) < filemtime($file)) {
             $content = null === ($toml = Toml::Parse($file)) ? [] : $toml;
-            array_walk_recursive($content, [$this, 'parseValues']);
+            array_walk_recursive($content, [$this, 'parseFunc']);
 
             if (! file_exists($cacheDir)) {
                 @mkdir($cacheDir, 0644);
