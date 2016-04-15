@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "laravel/framework": "*"
+        "laravel/framework": "*",
+        "yosymfony/toml": "0.4.x-dev"
     },
     "autoload": {
         "psr-4": {
