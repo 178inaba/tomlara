@@ -4,7 +4,22 @@
     "keywords": ["laravel", "toml", "configuration"],
     "license": "MIT",
     "homepage": "https://github.com/178inaba/tomlara",
+    "support": {
+        "issues": "https://github.com/178inaba/tomlara/issues",
+        "source": "https://github.com/178inaba/tomlara"
+    },
+    "authors": [
+        {
+            "name": "178inaba",
+            "email": "178inaba@users.noreply.github.com"
+        }
+    ],
     "require": {
         "laravel/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inaba\\": "src/Inaba/"
+        }
     }
 }
