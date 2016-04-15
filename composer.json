@@ -1,6 +1,9 @@
 {
     "name": "178inaba/tomlara",
-    "description": "package for using the config file of toml in laravel."
+    "description": "package for using the config file of toml in laravel.",
+    "keywords": ["laravel", "toml", "configuration"],
+    "license": "MIT",
+    "homepage": "https://github.com/178inaba/tomlara",
     "require": {
         "laravel/framework": "*"
     }
