@@ -1,6 +1,6 @@
 <?php
 
-namespace Inaba\Tomlara;
+namespace Inaba;
 
 use Yosymfony\Toml\Toml;
 use Illuminate\Config\Repository;
