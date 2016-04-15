@@ -1,5 +1,6 @@
 {
     "name": "178inaba/tomlara",
+    "description": "package for using the config file of toml in laravel."
     "require": {
         "laravel/framework": "*"
     }
