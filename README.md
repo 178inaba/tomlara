@@ -29,6 +29,9 @@ use Illuminate\Foundation\Http\Kernel as HttpKernel;
 //class Kernel extends ConsoleKernel
 class Kernel extends HttpKernel
 {
+
+    // ...
+
     protected function bootstrappers()
     {
         $this->bootstrappers[] = 'Inaba\Tomlara';
