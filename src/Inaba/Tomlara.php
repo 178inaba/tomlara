@@ -30,7 +30,12 @@ class Tomlara extends LoadConfiguration
             $loadedFromCache = true;
         }
 
-        $app->instance('config', $config = new Repository($items));
+        $config = new Repository($items);
+        if (! isset($loadedFromCache) && isset($app['config'])) {
+            $config = $app['config'];
+        }
+
+        $app->instance('config', $config);
 
         // Next we will spin through all of the configuration files in the configuration
         // directory and load each one into the repository. This will make all of the
