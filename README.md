@@ -39,6 +39,10 @@ class Kernel extends HttpKernel
 }
 ```
 
+## use func
+
+inspired by [Devitek/laravel-yaml-configuration](https://github.com/Devitek/laravel-yaml-configuration)
+
 ## licence
 
 MIT
