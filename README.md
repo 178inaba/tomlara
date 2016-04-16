@@ -15,6 +15,8 @@ $ composer require 178inaba/tomlara
 
 ## how to use
 
+add `bootstrappers()` method for `app/Http/Kernel.php` or `app/Console/Kernel.php`.
+
 ``` php
 <?php
 
