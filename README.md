@@ -1,5 +1,5 @@
 # tomlara
-
+[![Latest Stable Version](https://poser.pugx.org/178inaba/tomlara/v/stable)](https://packagist.org/packages/178inaba/tomlara) [![Total Downloads](https://poser.pugx.org/178inaba/tomlara/downloads)](https://packagist.org/packages/178inaba/tomlara) [![Latest Unstable Version](https://poser.pugx.org/178inaba/tomlara/v/unstable)](https://packagist.org/packages/178inaba/tomlara) [![License](https://poser.pugx.org/178inaba/tomlara/license)](https://packagist.org/packages/178inaba/tomlara)
 package for using the config file of [toml](https://github.com/toml-lang/toml) in [laravel](https://laravel.com/).
 
 ## install
