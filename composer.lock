@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ce540930334f11131866a01a521af194",
-    "content-hash": "85e0b0e010cda1de51abe32224226d70",
+    "hash": "93addb0c7ef9f219ae8d61ea8cd52738",
+    "content-hash": "56ac0f037d0d364acb1618103eb58bf3",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1780,16 +1780,16 @@
         },
         {
             "name": "yosymfony/toml",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yosymfony/Toml.git",
-                "reference": "05a8913c5e9b302a63d67c672320c02c6d685ef5"
+                "reference": "b0a28913e488389b6a088c2893c83037d80ec020"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yosymfony/Toml/zipball/05a8913c5e9b302a63d67c672320c02c6d685ef5",
-                "reference": "05a8913c5e9b302a63d67c672320c02c6d685ef5",
+                "url": "https://api.github.com/repos/yosymfony/Toml/zipball/b0a28913e488389b6a088c2893c83037d80ec020",
+                "reference": "b0a28913e488389b6a088c2893c83037d80ec020",
                 "shasum": ""
             },
             "require": {
@@ -1798,7 +1798,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "0.3-dev"
                 }
             },
             "autoload": {
@@ -1824,15 +1824,13 @@
                 "parser",
                 "toml"
             ],
-            "time": "2016-01-03 17:51:30"
+            "time": "2015-08-24 20:56:47"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "yosymfony/toml": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
