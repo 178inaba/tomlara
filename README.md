@@ -43,6 +43,13 @@ class Kernel extends HttpKernel
 
 inspired by [Devitek/laravel-yaml-configuration](https://github.com/Devitek/laravel-yaml-configuration)
 
+## test
+
+```bash
+$ composer install
+$ phpunit --bootstrap vendor/autoload.php tests
+```
+
 ## licence
 
 MIT
